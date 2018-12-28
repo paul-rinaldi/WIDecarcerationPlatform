@@ -1,0 +1,33 @@
+{
+  "name": "OI",
+  "version": "1.0.0",
+  "description": "OI website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "start": "node ./server/index.js",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "postinstall": "webpack",
+    "heroku-postbuild": "webpack -p"
+  },
+  "author": "OI boys",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "ract": "0.0.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^3.12.0"
+  },
+  "devDependencies": {}
+}
