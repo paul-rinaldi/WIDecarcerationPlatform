@@ -23,8 +23,8 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "ract": "0.0.1",
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "webpack": "^3.12.0"
